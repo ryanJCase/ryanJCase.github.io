@@ -1,0 +1,62 @@
+@charset "utf-8";
+.body {
+	background-color: rgb(47, 56, 76);
+}
+
+.profile-picture {
+	width: 130px;
+	justify-content: space-around;
+    border-style: none;
+}
+.role-title {
+	color:#5c88da;
+	
+}
+.container	{
+	background-color: white;
+}
+
+.highlight {
+	color:#5c88da;
+	font-style: strong;
+}
+
+.col-md-6 col-sm-12 {
+	border-style: solid;
+	border-color:black;
+}
+
+.linkedin-logo {
+	float:left;
+	padding-right: 5px;
+}
+
+.cert-container {
+	margin-top:30px;
+}
+
+.work-experience-container {
+	border-right-style:solid;
+}
+.myInfo-container {
+	padding-left: -25px;
+
+}
+.Summary-container {
+	
+}
+.navigation-container {
+	Width:100%;
+	Height:80px;
+	position:Fixed;
+	Top:0;
+	left:0;
+	Background-color:white;
+	box-shadow:0px 5px 5px 0 grey;
+	display: grid;
+	grid-template-columns: 445px 1fr 1fr;
+}
+
+.nav-buttons {
+	background-color:rgb(47, 56, 76); color:white; border-style:none; border-top-left-radius:5px; border-top-right-radius:5px;
+}
