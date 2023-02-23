@@ -5,8 +5,11 @@
 
 .profile-picture {
 	width: 130px;
-	justify-content: space-around;
     border-style: none;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
 }
 .role-title {
 	color:#5c88da;

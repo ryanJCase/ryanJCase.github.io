@@ -5466,15 +5466,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .media {
-  display: -ms-flexbox;
+/*  display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items:flex-start;*/
+
 }
 
 .media-body {
-  -ms-flex: 1;
-  flex: 1;
+/*  -ms-flex: 1;
+  flex: 1;*/
+	text-align:justify-all;
 }
 
 .list-group {
