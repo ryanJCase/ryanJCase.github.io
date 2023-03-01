@@ -4412,7 +4412,8 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  vertical-align: bottom;
+  text-align: end;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;

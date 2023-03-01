@@ -37,6 +37,9 @@
 .cert-container {
 	margin-top:30px;
 }
+.cert-image {
+	max-height:150px;
+}
 
 .work-experience-container {
 	border-right-style:solid;
@@ -45,10 +48,6 @@
 	padding-left: -25px;
 
 }
-.Summary-container {
-	
-}
-
 
 .nav-buttons {
 	background-color:rgb(47, 56, 76);
