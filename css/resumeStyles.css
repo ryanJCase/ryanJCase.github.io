@@ -12,7 +12,7 @@
 	padding-top: 5px;
 }
 .role-title {
-	color:#5c88da;
+	color:rgb(94,112,156);
 	
 }
 .container	{
@@ -20,7 +20,7 @@
 }
 
 .highlight {
-	color:#5c88da;
+	color:rgb(94,112,156);
 	font-style: strong;
 }
 
@@ -48,20 +48,14 @@
 .Summary-container {
 	
 }
-.navigation-container {
-	Width:100%;
-	Height:80px;
-	position:Fixed;
-	Top:0;
-	left:0;
-	Background-color:white;
-	box-shadow:0px 5px 5px 0 grey;
-	display: grid;
-	grid-template-columns: 445px 1fr 1fr;
-}
+
 
 .nav-buttons {
-	background-color:rgb(47, 56, 76); color:white; border-style:none; border-top-left-radius:5px; border-top-right-radius:5px;
+	background-color:rgb(47, 56, 76);
+	color:white;
+	border-style:none;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
 }
 .videoWrapper {
   position: relative;
@@ -79,3 +73,82 @@
 .badge-container {
 	style:"display:grid; grid-template-rows: 100% 100%;"
 }
+
+.nav-containerVtwo {
+	background-color: white;
+	position:fixed;
+	Top: 0;
+	left:0;
+
+}
+.test-pink {
+	background-color: lightpink;
+}
+.test-blue {
+	background-color: lightblue;
+}
+
+.profile-img {
+	height: 150px;
+	margin-top:-11px;
+	margin-left: -16px;
+	margin-right: 20px;
+	margin-bottom: -40px;
+	border-style: solid;
+	border-width: 20px;
+	border-color:#f8f9fa ;
+	border-bottom-right-radius: 40px;
+  }
+  
+  .profile-name {
+	display: inline-block;
+	color:rgb(94,112,156);
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top:0;
+	font-size:30px;
+  }
+
+  .profile-title {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	margin:0;
+  }
+  
+  .navbar {
+	position: relative;
+  }
+  
+  .navbar-brand {
+	display: flex;
+	align-items: center;
+  }
+
+  .custom-btn {
+	background-color:rgb(94,112,156);
+	color: #FFFFFF;
+	border-color: rgb(94,112,156);
+  }
+  
+  .custom-btn:hover {
+	background-color: #FFFFFF;
+	color: rgb(94,112,156);
+	border-color: #FFFFFF;
+  }
+  
+  .education-container {
+	padding-left:15px;
+  }
+
+  .skill_set {
+	max-width:539px !important;
+  }
+  .address {
+	padding-left:15px;
+	padding-right:30px;
+  }
+  .address-container {
+	border-right: 2px solid rgb(94,112,156);
+	width:239px;
+  }
