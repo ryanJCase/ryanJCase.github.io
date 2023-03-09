@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GTLEB2XRJS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,12 +17,26 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/resumeStyles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('.magnific-popup').magnificPopup({
+          type:'image',
+          gallery:{
+            enabled:true
+          }
+        });
+      });
+      </script>
+      
   </head>
   <body class="body card-body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="row-gap:10px;">
       <a class="navbar-brand">
         <img src="images/Profile Picture Updated.jpg" alt="Generic placeholder image;" class="profile-img bg-light">
-        <div>
+        <div style="margin-left:-15px">
           <h5 class="profile-name">Ryan Case</h5>
           <p class="profile-title"><small>Learning and Development</small></p>
           <p class="profile-title"><small>Professional</small></p>
@@ -35,7 +49,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/threeDPrint.html">3D Printing</a>
           </li>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -196,12 +213,55 @@
       <h2>Portfolio</h2>
       <hr>
       <div class="container">
-        <div><div class="videoWrapper"><iframe width="100%	!important;" height="auto	!important;" src="https://www.youtube.com/embed/PoEvTvf91dE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>
-			<div style="display:grid; grid-template-columns:55% 44.5%; margin-top:15px">
-			<a  style="max-width:500px height=100%;" href="images/WeLink Training 1.jpg" target="_blank"><img class="img-thumbnail" src="images/WeLink Training 1.jpg" alt=""></a>
-      <a  style="max-width:500px height=100%;" href="images/WeLink Training 2.jpg" target="_blank"><img class="img-thumbnail"  src="images/WeLink Training 2.jpg" alt=""></div>
-			</div>
+        <div>
+          <div class="videoWrapper"><iframe width="100%	!important;" height="auto	!important;" src="https://www.youtube.com/embed/PoEvTvf91dE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
       </div>
+        <div style="display:grid; grid-template-columns:55% 44.5%; margin-top:15px">
+          <a href="#" data-toggle="modal" data-target="#image1Modal">
+            <img class="img-thumbnail" src="images/WeLink Training 1.jpg" alt="">
+          </a>
+          <a href="#" data-toggle="modal" data-target="#image2Modal">
+            <img class="img-thumbnail" src="images/WeLink Training 2.jpg" alt="">
+          </a>
+        </div>
+      </div>
+      
+     <!-- Modal for image 1 -->
+<div class="modal fade" id="image1Modal" tabindex="-1" role="dialog" aria-labelledby="image1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="image1ModalLabel">Image 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid custom-img" src="images/WeLink Training 1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for image 2 -->
+<div class="modal fade" id="image2Modal" tabindex="-1" role="dialog" aria-labelledby="image2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="image2ModalLabel">Image 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid custom-img" src="images/WeLink Training 2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+      
       
       
       <hr>
