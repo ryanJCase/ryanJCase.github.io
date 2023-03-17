@@ -181,3 +181,24 @@
 	width: 75%;
 	height: 75%;
   }
+
+
+  @media (max-width: 767px) {
+	/* stack images on top of each other for small screens */
+	.image-grid {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	/* show images side by side for medium and large screens */
+	.image-grid {
+	  display: grid;
+	  grid-template-columns: 55% 44.5%;
+	  margin-top: 15px;
+	}
+  }
+
+  
+  
